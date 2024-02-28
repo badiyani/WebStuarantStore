@@ -51,6 +51,10 @@ public class BasePage {
 		}
 			
 	}
+	
+	public void closeBrowser() {
+		driver.close();
+	}
 
 	public Actions getActions() {
 		return new Actions(this.driver);

@@ -2,15 +2,12 @@ package webStuarantTest;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-
-import Utility.BasePage;
 import Utility.Constants;
 import WebstuarantPage.SearchPage;
 
-public class SearchItemAddCartTest extends BasePage{
+public class SearchItemAddCartTest{
 	SearchPage s = new SearchPage(null);
 	Constants c = new Constants();
-
 	
 	@Test (priority = 1)
 	public void goToPage() {
@@ -43,6 +40,6 @@ public class SearchItemAddCartTest extends BasePage{
 	
 	@AfterClass
 	public void afterclass() {
-		driver.quit();
+		s.closeBrowser();
 	}
 }

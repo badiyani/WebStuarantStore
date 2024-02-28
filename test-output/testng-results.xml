@@ -2,32 +2,36 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T22:04:19 MST" name="Default suite" finished-at="2024-02-27T22:05:38 MST" duration-ms="78921">
+  <suite started-at="2024-02-27T22:49:44 MST" name="Default suite" finished-at="2024-02-27T22:51:12 MST" duration-ms="88026">
     <groups>
     </groups>
-    <test started-at="2024-02-27T22:04:19 MST" name="Default test" finished-at="2024-02-27T22:05:38 MST" duration-ms="78921">
-      <class name="webStuarantTest.Testing">
-        <test-method signature="goToPage()[pri:1, instance:webStuarantTest.Testing@81d9a72]" started-at="2024-02-27T22:04:19 MST" name="goToPage" finished-at="2024-02-27T22:04:25 MST" duration-ms="5686" status="PASS">
+    <test started-at="2024-02-27T22:49:44 MST" name="Default test" finished-at="2024-02-27T22:51:12 MST" duration-ms="88026">
+      <class name="webStuarantTest.SearchItemAddCartTest">
+        <test-method signature="goToPage()[pri:1, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:49:44 MST" name="goToPage" finished-at="2024-02-27T22:49:48 MST" duration-ms="4160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToPage -->
-        <test-method signature="searchTheResult()[pri:2, instance:webStuarantTest.Testing@81d9a72]" started-at="2024-02-27T22:04:25 MST" name="searchTheResult" finished-at="2024-02-27T22:04:28 MST" duration-ms="3453" status="PASS">
+        <test-method signature="searchTheResult()[pri:2, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:49:49 MST" name="searchTheResult" finished-at="2024-02-27T22:49:54 MST" duration-ms="5205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTheResult -->
-        <test-method signature="checkTheTitle()[pri:3, instance:webStuarantTest.Testing@81d9a72]" started-at="2024-02-27T22:04:28 MST" name="checkTheTitle" finished-at="2024-02-27T22:05:34 MST" duration-ms="65812" status="PASS">
+        <test-method signature="checkTheTitle()[pri:3, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:49:54 MST" name="checkTheTitle" finished-at="2024-02-27T22:51:06 MST" duration-ms="72364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTheTitle -->
-        <test-method signature="addToTheCart()[pri:4, instance:webStuarantTest.Testing@81d9a72]" started-at="2024-02-27T22:05:34 MST" name="addToTheCart" finished-at="2024-02-27T22:05:37 MST" duration-ms="3169" status="PASS">
+        <test-method signature="addToTheCart()[pri:4, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:51:06 MST" name="addToTheCart" finished-at="2024-02-27T22:51:11 MST" duration-ms="5319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToTheCart -->
-        <test-method signature="emptyTheCart()[pri:5, instance:webStuarantTest.Testing@81d9a72]" started-at="2024-02-27T22:05:37 MST" name="emptyTheCart" finished-at="2024-02-27T22:05:38 MST" duration-ms="754" status="PASS">
+        <test-method signature="emptyTheCart()[pri:5, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:51:11 MST" name="emptyTheCart" finished-at="2024-02-27T22:51:12 MST" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyTheCart -->
-      </class> <!-- webStuarantTest.Testing -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:webStuarantTest.SearchItemAddCartTest@163370c2]" started-at="2024-02-27T22:51:12 MST" name="afterclass" finished-at="2024-02-27T22:51:12 MST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- webStuarantTest.SearchItemAddCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
